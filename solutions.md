@@ -19,3 +19,4 @@ p17-b: pwd
 p18-b: ls -l challenges
 p19-b: echo "Text to append" >> restricted.txt
 p20-b: ./hello_executable
+p21-b: ./challenge_20
