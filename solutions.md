@@ -1,1 +1,2 @@
 p1-b: tar -xvzf challenges.tar.gz
+p2-b: cd challenges
