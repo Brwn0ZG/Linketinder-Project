@@ -24,3 +24,4 @@ p22-b: gcc compile_me.c -o compile_me && ./compile_me
 p23-b: ./redirect > output.txt
 p24-b: date
 p25-b: ps
+p26-b: nproc
