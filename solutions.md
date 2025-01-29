@@ -18,3 +18,4 @@ p16-b: cat hello.txt hello_copy.txt > 2_hellos.txt
 p17-b: pwd
 p18-b: ls -l challenges
 p19-b: echo "Text to append" >> restricted.txt
+p20-b: ./hello_executable
