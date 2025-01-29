@@ -22,3 +22,4 @@ p20-b: ./hello_executable
 p21-b: ./challenge_20
 p22-b: gcc compile_me.c -o compile_me && ./compile_me
 p23-b: ./redirect > output.txt
+p24-b: date
