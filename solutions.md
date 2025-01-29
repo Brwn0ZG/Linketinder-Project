@@ -26,3 +26,4 @@ p24-b: date
 p25-b: ps
 p26-b: nproc
 p27-b: uname -r
+p28-b: grep -rl "You found the needle in the haystack!" bunch_of_files/
