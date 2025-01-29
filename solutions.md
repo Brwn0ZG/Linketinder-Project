@@ -25,3 +25,4 @@ p23-b: ./redirect > output.txt
 p24-b: date
 p25-b: ps
 p26-b: nproc
+p27-b: uname -r
