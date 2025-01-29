@@ -12,3 +12,4 @@ p10-b: rm empty.txt
 p11-b: > empty.txt
 p12-b: echo -n > empty.txt
 p13-b: cp hello.txt goodbye.txt
+p14-b: mv goodbye.txt hello_copy.txt
