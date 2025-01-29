@@ -7,3 +7,4 @@ p5-b: mkdir -p foo/bar/1/2/3
 p6-b: rm -rf foo
 p7-b: echo "Hello World"
 p8-b: echo "Hello World" > hello.txt
+p9-b: touch empty.txt
