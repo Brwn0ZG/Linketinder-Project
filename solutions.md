@@ -45,3 +45,4 @@ p43-b: find challenges -type f | wc -l
 p44-b: find challenges -type d | wc -l
 p45-b: rm *deleteme*
 p46-b: sed -i 's/You found the needle in the haystack!/The needle has been removed./' <file>
+p47:b: sed 's/,/|/g' people.csv > people_pipe.csv
