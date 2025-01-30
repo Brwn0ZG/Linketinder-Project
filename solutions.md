@@ -30,3 +30,4 @@ p28-b: grep -rl "You found the needle in the haystack!" bunch_of_files/
 p29-b: head -n 25 people.csv
 p30-b: tail -n 25 people.csv
 p31-b: diff greeting1.txt greeting2.txt
+p32-b: echo "Hello"; sleep 5; echo "world!"
