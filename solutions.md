@@ -34,3 +34,4 @@ p32-b: echo "Hello"; sleep 5; echo "world!"
 p33-b: dd if=/dev/zero of=zero_file bs=1M count=1
 p34-b: dd if=/dev/urandom of=random_file bs=1M count=2
 p35-b: wc -l README.txt
+p36-b: tac README.txt
