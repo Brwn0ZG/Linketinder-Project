@@ -32,3 +32,4 @@ p30-b: tail -n 25 people.csv
 p31-b: diff greeting1.txt greeting2.txt
 p32-b: echo "Hello"; sleep 5; echo "world!"
 p33-b: dd if=/dev/zero of=zero_file bs=1M count=1
+p34-b: dd if=/dev/urandom of=random_file bs=1M count=2
