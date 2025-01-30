@@ -40,3 +40,4 @@ p38-b: cut -d',' -f2 people.csv | sort -u | wc -l
 p39-b: cut -d',' -f2 people.csv | sort -u | tail -n +2 | wc -l
 p40-b: awk 'NR>1 {print $2}' people.csv | sort -u | wc -l
 p41-b: time cut -d',' -f2 people.csv | sort -u | wc -l
+p42-b: grep -c "Josiah" people.csv
