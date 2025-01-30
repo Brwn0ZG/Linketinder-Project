@@ -37,3 +37,4 @@ p35-b: wc -l README.txt
 p36-b: tac README.txt
 p37-b: cut -d',' -f2 people.csv
 p38-b: cut -d',' -f2 people.csv | sort -u | wc -l
+p39-b: cut -d',' -f2 people.csv | sort -u | tail -n +2 | wc -l
