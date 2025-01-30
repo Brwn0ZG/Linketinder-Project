@@ -28,3 +28,4 @@ p26-b: nproc
 p27-b: uname -r
 p28-b: grep -rl "You found the needle in the haystack!" bunch_of_files/
 p29-b: head -n 25 people.csv
+p30-b: tail -n 25 people.csv
