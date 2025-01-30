@@ -47,3 +47,4 @@ p45-b: rm *deleteme*
 p46-b: sed -i 's/You found the needle in the haystack!/The needle has been removed./' <file>
 p47:b: sed 's/,/|/g' people.csv > people_pipe.csv
 p48:b: find bunch_of_files/ -name "file001.rand" -exec cmp {} file001.rand \;
+p49:b: touch supercalifragilisticexpialidocious.txt && rm supercalifragilisticexpialidocious.txt
