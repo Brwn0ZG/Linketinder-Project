@@ -43,3 +43,4 @@ p41-b: time cut -d',' -f2 people.csv | sort -u | wc -l
 p42-b: grep -c "Josiah" people.csv
 p43-b: find challenges -type f | wc -l
 p44-b: find challenges -type d | wc -l
+p45-b: rm *deleteme*
